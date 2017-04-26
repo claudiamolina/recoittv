@@ -2,8 +2,8 @@
 
 
 ### What is this repository for? ###
-We present a new Surface-Constrained Total Variation based (SCTV) method for CBCT based on the Split Bregman algorithm. It takes advantage of the surface information of the sample as an imposed constraint to help in the recovery of the contour of the sample and in the definition of the other edges and details.
-We provide binaries of a command-line application that implements the SCTV method. 
+We present an accelerated implementation of an iterative method for cone-beam CT following the Split Bregman formulation, reducing computational time through GPU-accelerated kernels.
+We provide binaries of a command-line application that implements the method. 
 
 
 Current Version is 1.4.1. 
